@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #f1f1f1;
+}
+.header {
+	background-color: #dfdfdf;
+	height: 172px;
+}
+
+.clear{
+	clear: both;
+}
+.login{
+	width: 137px;
+	height: 48px;
+}
+.img_logo{
+	margin: 39px 0 0 61px;
+}
+.img_login_sign{
+	margin: 32px 47px 0 0;
+}
+.box{
+	width: 137px;
+	height: 46px;
+}
