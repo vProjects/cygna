@@ -19,9 +19,18 @@ body{
 	margin: 39px 0 0 61px;
 }
 .img_login_sign{
-	margin: 32px 47px 0 0;
+	margin: 32px 42px 0 0;
 }
 .box{
-	width: 137px;
+	width: 138px;
 	height: 46px;
+	margin-right: 8px;
+	background-color: #194a74;
+}
+.box_int_img{
+	margin-left: 6px;
+}
+
+.box_int_text{
+	margin-left: 16px;
 }
