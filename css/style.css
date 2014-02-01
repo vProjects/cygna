@@ -1,11 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
+@font-face
+{
+font-family: myFirstFont;
+src:url(../images/Copperplate%20Gothic%20Bold%20T..ttf);
+}
 body{
 	background-color: #f1f1f1;
 }
 .header {
 	background-color: #dfdfdf;
 	height: 172px;
+	margin-bottom: 0;
 }
 
 .clear{
@@ -16,21 +22,107 @@ body{
 	height: 48px;
 }
 .img_logo{
-	margin: 39px 0 0 61px;
+	margin: 24px 0 0 44px;
 }
 .img_login_sign{
-	margin: 32px 42px 0 0;
+	margin-right:42px;
 }
 .box{
 	width: 138px;
 	height: 46px;
 	margin-right: 8px;
-	background-color: #194a74;
+	background-color: #194a74;	
+	margin-top: 32px;
 }
 .box_int_img{
-	margin-left: 6px;
+	margin-left: -8px;
+	margin-top: -10px;
+	float: left;
 }
 
 .box_int_text{
 	margin-left: 16px;
+	float: left;
+	font-family: myFirstFont;
+}
+.search_box{
+	width: 284px;
+	height: 31px;
+	border: 2px solid #194a74;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	float: left;
+	margin-top: 3px;
+	margin-right: 8px;
+}
+
+.col-md-12 ul li{
+	display: block;
+	float: left;
+}
+
+.col-md-12 ul{
+	margin: 0;
+}
+.mr_rt{
+	margin-right: 24px;
+}
+.main_content{
+	background-color: #f1f1f1;
+	height: 418px;
+}
+.mr_tp{
+	margin-top: 57px;
+	margin-left: 125px;
+	background-image: url(../images/circle.png);
+	width: 300px;
+	height: 300px;
+	background-repeat: no-repeat;
+	float: left;
+}
+.img_circle{
+	width: 57px;
+	height: 57px;
+	border-radius: 50%;
+	border: 1px solid #d4b037;
+	background-color: #ffc600;
+}
+.img_1{
+	margin-top: -12px;
+	margin-left: 115px;
+}
+.img_2{
+	margin-left: -14px;
+	margin-top: 74px;
+}
+
+.img_3{
+	margin-left: 255px;
+	margin-top: -57px;
+}
+.img_4{
+	margin-left: 115px;
+	margin-top: 74px;
+}
+.content_text{
+	width: 510px;
+	height: 383px;
+	float: left;
+	margin-top: 14px;
+	background-image: url(../images/layer.png);
+	background-repeat: no-repeat;
+	margin-left: 45px;
+}
+.content_bg_col {
+	background-color: #DFDFDF;
+	float: left;
+	width: 510px;
+	height: 383px;
+	opacity: 0.1;
+}
+
+.img_thumb{
+	width: 270px;
+	height: 325px;
+	background-color: #DFDFDF;
 }
